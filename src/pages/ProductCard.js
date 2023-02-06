@@ -24,11 +24,11 @@ const ProductCard = ({ coffee }) => {
 
               <div className="product-rating">
                 <div>
-                <AiFillStar style={{ fontSize: 25, color: "Yellow" }} />
-                <AiFillStar style={{ fontSize: 25, color: "Yellow" }} />
-                <AiFillStar style={{ fontSize: 25, color: "Yellow" }} />
-                <AiFillStar style={{ fontSize: 25, color: "Yellow" }} />
-                <AiFillStar style={{ fontSize: 25, color: "Yellow" }} />
+                <AiFillStar style={{ fontSize: 25, color: "#794e21" }} />
+                <AiFillStar style={{ fontSize: 25, color: "#794e21" }} />
+                <AiFillStar style={{ fontSize: 25, color: "#794e21" }} />
+                <AiFillStar style={{ fontSize: 25, color: "#794e21" }} />
+                <AiFillStar style={{ fontSize: 25, color: "#794e21" }} />
                 </div>
                 <h6>500+ Views</h6>
               </div>
