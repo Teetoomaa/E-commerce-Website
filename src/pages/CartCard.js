@@ -3,7 +3,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import CoffeeContext from "../context/CoffeeContext";
 
 const CartCard = () => {
-  const { addedCoffee } = useContext(CoffeeContext);
+  const { addedCoffee, removeFromCart } = useContext(CoffeeContext);
 
   return (
     <div className="cart-container">
@@ -39,7 +39,7 @@ const CartCard = () => {
                   <h3>${coffee.total}</h3>
                 </td>
                 <td>
-                  <RiDeleteBin6Line style={{ fontSize: 15, color: "red" }} />
+                  <RiDeleteBin6Line onClick={()=>removeFromCart(coffee.id)} style={{ fontSize: 15, color: "red" }} />
                 </td>
               </tr>
             </tbody>
